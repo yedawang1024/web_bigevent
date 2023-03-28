@@ -22,7 +22,7 @@ $(function () {
         // 校验两次密码是否一致的规则
         repwd: function (value) {
             var pwd = $('.reg-box [name=password]').val()
-            if (pwd != value) {
+            if (pwd !== value) {
                 return '两次密码不一致！'
             }
         }
